@@ -11,7 +11,7 @@ def check_ip():
         print(f"✅ Valid IP: {user_input}")
         print(f"🌐 Type: IPv{obj.version}")
         print(f"🏠 Is it Private? {'Yes' if obj.is_private else 'No, it is Public'}")
-        
+        print("Thanks for using our tool!")        
     except ValueError:
         print("❌ Oops! That's not a real IP address. Try again.")
 
